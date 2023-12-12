@@ -17,8 +17,7 @@ SRCREV = "9fa60e05248a40405f0c903d4113a8d76724db79"
 
 # This sets your staging directory based on WORKDIR, where WORKDIR is defined at 
 # https://docs.yoctoproject.org/ref-manual/variables.html?highlight=workdir#term-WORKDIR
-# We reference the "server" directory here to build from the "server" directory
-# in your assignments repo
+# We reference the "server" directory here to build from the "server" directory in your assignments repo
 S = "${WORKDIR}/git/server"
 
 # TODO: Add the aesdsocket application and any other files you need to install
